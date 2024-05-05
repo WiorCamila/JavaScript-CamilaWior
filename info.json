@@ -1,0 +1,284 @@
+{
+    "productosZara": [
+      {
+        "id": 1,
+        "imagen": "./img/jean-recto-tiro-alto.jpg",
+        "nombre": "Jean Recto Tiro Medio con Brillos",
+        "categoria": "jean",
+        "precio": 15.115
+      },
+      {
+        "id": 2,
+        "nombre": "Jean Relaxed Mid Waist.",
+        "precio": 10.552,
+        "categoria": "jean",
+        "imagen": "./img/jean-relaxed-mid-waist.jpg"
+      },
+      {
+        "id": 3,
+        "imagen": "./img/jean-gris-claro.jpg",
+        "nombre": "Jean Gris Claro.",
+        "categoria": "jean",
+        "precio": 15.114
+      },
+      {
+        "id": 4,
+        "imagen": "./img/jean-mom-fit-tiro-alto.jpg",
+        "nombre": "Jean Mom Fit Tiro Alto.",
+        "categoria": "jean",
+        "precio": 10.124
+      },
+      {
+        "id": 5,
+        "imagen": "./img/jean-mom-fit-gris-tiro-alto.jpg",
+        "nombre": "Jean Mom Fit Gris Tiro Alto.",
+        "categoria": "jean",
+        "precio": 20.124
+      },
+      {
+        "id": 6,
+        "imagen": "./img/jean-trf-recto-bajo.jpg",
+        "nombre": "Jean TRF Recto Bajo.",
+        "categoria": "jean",
+        "precio": 15.126
+      },
+      {
+        "id": 7,
+        "imagen": "./img/jean-bootcut-cropped-tiro-alto.jpg",
+        "nombre": "Jean Bootcut Cropped Tiro Alto.",
+        "categoria": "jean",
+        "precio": 18.128
+      },
+      {
+        "id": 8,
+        "imagen": "./img/jean-balloon-tiro-medio.jpg",
+        "nombre": "Jean Balloon Tiro Medio.",
+        "categoria": "jean",
+        "precio": 14.010
+      },
+      {
+        "id": 9,
+        "imagen": "./img/jean-trf-cargo-wide-leg.jpg",
+        "nombre": "Jean TRF Cargo Wide Leg.",
+        "categoria": "jean",
+        "precio": 16.150
+      },
+      {
+        "id": 10,
+        "imagen": "./img/jean-trf-flare.jpg",
+        "nombre": "Jean TRF Flare.",
+        "categoria": "jean",
+        "precio": 12.105
+      },
+      {
+        "id": 11,
+        "imagen": "./img/camisa-organza.jpg",
+        "nombre": "Camisa Organza.",
+        "categoria": "Camisa/Blusa",
+        "precio": 15.125
+      },
+      {
+        "id": 12,
+        "imagen": "./img/camisa-crepe.jpg",
+        "nombre": "Camisa Crepe.",
+        "categoria": "Camisa/Blusa",
+        "precio": 18.135
+      },
+      {
+        "id": 13,
+        "imagen": "./img/blusa-estampado-floreal-volantes.jpg",
+        "nombre": "Blusa estampado Floreal Volantes.",
+        "categoria": "Camisa/Blusa",
+        "precio": 10.105
+      },
+      {
+        "id": 14,
+        "imagen": "./img/camisa-entallada-rayas-hilos-metalizado.jpg",
+        "nombre": "Camisa Entallada Rayas Hilos Metalizado.",
+        "categoria": "Camisa/Blusa",
+        "precio": 25.182
+      },
+      { 
+        "id": 15,
+        "imagen": "./img/camisa-organza-rayas.jpg",
+        "nombre": "Camisa Organza rayas.",
+        "categoria": "Camisa/Blusa",
+        "precio": 20.109
+      },
+      {
+        "id": 16,
+        "imagen": "./img/blusa-organza-lazo.jpg",
+        "nombre": "Blusa Organza Lazo.",
+        "categoria": "Camisa/Blusa",
+        "precio": 19.122
+      },
+      {
+        "id": 17,
+        "imagen": "./img/camisa-fluida-recta.jpg",
+        "nombre": "Camisa Fluida Recta.",
+        "categoria": "Camisa/Blusa",
+        "precio": 12.685
+      },
+      {
+        "id": 18,
+        "imagen": "./img/camisa-satinada-slim.jpg",
+        "nombre": "Camisa Satinada Slim.",
+        "categoria": "Camisa/Blusa",
+        "precio": 13.125
+      },
+      {
+        "id": 19,
+        "imagen": "./img/camisa-oversize-raya.jpg",
+        "nombre": "Camisa Oversize Raya.",
+        "categoria": "Camisa/Blusa",
+        "precio": 9.105
+      },
+      {
+        "id": 20,
+        "imagen": "./img/blusa-volumen-bordado.jpg",
+        "nombre": "Blusa volumen Bordado.",
+        "categoria": "Camisa/Blusa",
+        "precio": 10.128
+      },
+      {
+        "id": 21,
+        "imagen": "./img/camiseta-oversize-rayas.jpg",
+        "nombre": "Camiseta Oversize Rayas.",
+        "categoria": "Camiseta",
+        "precio": 10.105
+      },
+      {
+        "id": 22,
+        "imagen": "./img/camiseta-cropped-perkins.jpg",
+        "nombre": "Camiseta Cropped Perkins.",
+        "categoria": "Camiseta",
+        "precio": 27.855
+      },
+      {
+        "id": 23,
+        "imagen": "./img/camiseta-soft-joyas.jpg",
+        "nombre": "Camiseta Soft Joyas.",
+        "categoria": "Camiseta",
+        "precio": 10.022
+      },
+      {
+        "id": 24,
+        "imagen": "./img/camiseta-confort.jpg",
+        "nombre": "Camiseta Confort.",
+        "categoria": "Camiseta",
+        "precio": 11.005
+      },
+      {
+        "id": 25,
+        "imagen": "./img/camiseta-rib-metalizada.jpg",
+        "nombre": "Camiseta Rib Metalizada.",
+        "categoria": "Camiseta",
+        "precio": 11.122
+      },
+      {
+        "id": 26,
+        "imagen": "./img/camiseta-seamless-crop.jpg",
+        "nombre": "Camiseta Seamless Crop.",
+        "categoria": "Camiseta",
+        "precio": 15.118
+      },
+      {
+        "id": 27,
+        "imagen": "./img/camiseta-fornitura.jpg",
+        "nombre": "Camiseta Fornitura.",
+        "categoria": "Camiseta",
+        "precio": 8.150
+      },
+      {
+        "id": 28,
+        "imagen": "./img/camiseta-basica.jpg",
+        "nombre": "Camiseta Basica.",
+        "categoria": "Camiseta",
+        "precio": 11.010
+      },
+      {
+        "id": 29,
+        "imagen": "./img/camiseta-oversize-efecto-lavado.jpg",
+        "nombre": "Camiseta Oversize.",
+        "categoria": "Camiseta",
+        "precio": 8.110
+      },
+      {
+        "id": 30,
+        "imagen": "./img/camiseta-rib-lavada-texto.jpg",
+        "nombre": "Camiseta Rib.",
+        "categoria": "Camiseta",
+        "precio": 25.995
+      },
+      {
+        "id": 31,
+        "imagen": "./img/jersey-punto-hilo-metalizado.jpg",
+        "nombre": "Jersey Punto Hilo Metalizado.",
+        "categoria": "Punto",
+        "precio": 15.125
+      },
+      {
+        "id": 32,
+        "imagen": "./img/chaleco-punto-sisa.jpg",
+        "nombre": "Chaleco Punto Sisa.",
+        "categoria": "Punto",
+        "precio": 17.115
+      },
+      {
+        "id": 33,
+        "imagen": "./img/chaleco-punto-torzal-oversize.jpg",
+        "nombre": "Chaleco Punto Torzal Oversize.",
+        "categoria": "Punto",
+        "precio": 70.115
+      },
+      {
+        "id": 34,
+        "imagen": "./img/jersey-punto-frunces-cintura.jpg",
+        "nombre": "Jersey Punto Frunces Cintura.",
+        "categoria": "Punto",
+        "precio": 9.222
+      },
+      {
+        "id": 35,
+        "imagen": "./img/jersey-punto-con-cashmere-lana.jpg",
+        "nombre": "Jersey Punto con Cashmere y Lana.",
+        "categoria": "Punto",
+        "precio": 10.043
+      },
+      {
+        "id": 36,
+        "imagen": "./img/chaqueta-crop-escote-pico.jpg",
+        "nombre": "Chaqueta Crop Escote Pico.",
+        "categoria": "Punto",
+        "precio": 10.112
+      },
+      {
+        "id": 37,
+        "imagen": "./img/chaleco-punto-soft.jpg",
+        "nombre": "Chaleco Punto Soft.",
+        "categoria": "Punto",
+        "precio": 15.118
+      },
+      {
+        "id": 38,
+        "nombre": "Top Punto Canalé.",
+        "imagen": "./img/top-punto-canale.jpg",
+        "categoria": "Punto",
+        "precio": 6.122
+      },
+      {
+        "id": 39,
+        "nombre": "Jersey Punto Cropped.",
+        "precio": 8.665,
+        "categoria": "Punto",
+        "imagen": "./img/jersey-punto-cropped.jpg"
+      },
+      {
+        "id": 40,
+        "imagen": "./img/jersey-punto-rib.jpg",
+        "categoria": "Punto",
+        "nombre": "Jersey Punto Rib.",
+        "precio": 10.151
+      }
+    ]
+  }

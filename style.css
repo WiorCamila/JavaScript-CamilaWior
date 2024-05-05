@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header nav{
+    background-color: black;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    color: white;
+}
+
+
+.container-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+
+}
+
+
+.carousel-inner{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.conteiner-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+}
+
+.categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Categorias ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Categorias ul li{
+    margin: 0 40px;
+    cursor: pointer;
+}
+
+.card{
+    margin-top: 18px;
+}
+
+
+.card img{
+    width: 100%;
+}
+
+.card-body{
+    padding: 0;
+    margin: 7px;
+}
+
+h3{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+
+img{
+    width: 75px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.precio{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.carrito{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+/* Carrito */
+
+.btnCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.carritoFisico{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    color: white;
+    width: 300px;
+    height: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    z-index: 1000;
+    overflow: scroll;
+}
+
+.carritoFisico.active{
+    transform: translateX(0);
+}
+
+.carritoFisico h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.BotonEliminar{
+    background-color: palevioletred;
+    font-size: 16px;
+}
+.tituloProducto{
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.prodEnCarrito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.precioYCantidad{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
