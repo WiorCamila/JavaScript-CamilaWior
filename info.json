@@ -3,7 +3,7 @@
       {
         "id": 1,
         "imagen": "./img/jean-recto-tiro-alto.jpg",
-        "nombre": "Jean Recto Tiro Medio con Brillos",
+        "nombre": "Jean con Brillos",
         "categoria": "jean",
         "precio": 15.115
       },
@@ -24,35 +24,35 @@
       {
         "id": 4,
         "imagen": "./img/jean-mom-fit-tiro-alto.jpg",
-        "nombre": "Jean Mom Fit Tiro Alto.",
+        "nombre": "Jean Mom Fit.",
         "categoria": "jean",
         "precio": 10.124
       },
       {
         "id": 5,
         "imagen": "./img/jean-mom-fit-gris-tiro-alto.jpg",
-        "nombre": "Jean Mom Fit Gris Tiro Alto.",
+        "nombre": "Jean Mom Fit Gris.",
         "categoria": "jean",
         "precio": 20.124
       },
       {
         "id": 6,
         "imagen": "./img/jean-trf-recto-bajo.jpg",
-        "nombre": "Jean TRF Recto Bajo.",
+        "nombre": "Jean TRF.",
         "categoria": "jean",
         "precio": 15.126
       },
       {
         "id": 7,
         "imagen": "./img/jean-bootcut-cropped-tiro-alto.jpg",
-        "nombre": "Jean Bootcut Cropped Tiro Alto.",
+        "nombre": "Jean Bootcut Cropped.",
         "categoria": "jean",
         "precio": 18.128
       },
       {
         "id": 8,
         "imagen": "./img/jean-balloon-tiro-medio.jpg",
-        "nombre": "Jean Balloon Tiro Medio.",
+        "nombre": "Jean Balloon.",
         "categoria": "jean",
         "precio": 14.010
       },
@@ -187,21 +187,21 @@
         "imagen": "./img/camiseta-fornitura.jpg",
         "nombre": "Camiseta Fornitura.",
         "categoria": "Camiseta",
-        "precio": 8.150
+        "precio": 8.156
       },
       {
         "id": 28,
         "imagen": "./img/camiseta-basica.jpg",
         "nombre": "Camiseta Basica.",
         "categoria": "Camiseta",
-        "precio": 11.010
+        "precio": 11.018
       },
       {
         "id": 29,
         "imagen": "./img/camiseta-oversize-efecto-lavado.jpg",
         "nombre": "Camiseta Oversize.",
         "categoria": "Camiseta",
-        "precio": 8.110
+        "precio": 8.119
       },
       {
         "id": 30,

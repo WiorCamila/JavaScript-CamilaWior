@@ -2,17 +2,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F3F4 ;
 }
 
 header nav{
     background-color: black;
-}
-
-
-body{
-    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -25,38 +20,33 @@ h1{
     color: white;
 }
 
-
 .container-navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     width: auto;
-
 }
 
-
 .carousel-inner{
-    max-width: 100%;
+    max-width: 99%;
     height: auto;
     display: block;
     margin: 0 auto;
-
 }
 
 .conteiner-main{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: stretch;
-
+    align-items: stretch;
 }
 
 .categoria{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .Categorias ul{
@@ -65,39 +55,53 @@ h1{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 9px;
 }
 
 .Categorias ul li{
-    margin: 0 40px;
+    margin: 0;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .card{
     margin-top: 18px;
 }
 
-
 .card img{
     width: 100%;
 }
 
 .card-body{
-    padding: 0;
-    margin: 7px;
+    padding: 2px;
+    margin-left: 1px;
+}
+
+.btn-primary{
+    padding: var(--space);
+    background-color: var(--green-color);
+    width: 100%;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: var(--white-color);
+}
+
+.btn-primary:hover{
+    background-color: #63a426;
 }
 
 h3{
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: sans-serif;
+    font-weight: 600;
     font-style: normal;
     margin-top: 5px;
 }
 
 
 img{
-    width: 75px;
+    width: 60px;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
@@ -168,8 +172,14 @@ button{
 }
 
 .BotonEliminar{
-    background-color: palevioletred;
-    font-size: 16px;
+    padding: var(--space);
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+}
+.BotonEliminar:hover{
+    background-color: red;
+    color: black;
 }
 .tituloProducto{
     font-size: 1rem;
