@@ -41,6 +41,7 @@ h1{
     flex-wrap: wrap;
     align-content: stretch;
     align-items: stretch;
+    margin: 15px;
 }
 
 .categoria{
@@ -200,4 +201,32 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+footer .list-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: stretch;
+}
+footer .list-footer a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+footer .list-footer a:hover {
+    font-weight: 0;
+    text-decoration: underline;
 }

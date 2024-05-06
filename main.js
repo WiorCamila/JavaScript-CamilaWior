@@ -23,7 +23,7 @@ const listaProducto = (producto)=>{
                     <div class="card-body">
                         <h3>${producto.nombre}</h3>
                         <p>$${producto.precio}</p>
-                        <button class="btn btn-primary Botoncarrito"> Comprar</button>
+                        <button class="btn btn-primary Botoncarrito">Comprar.</button>
                     </div>
     
                 </div>
