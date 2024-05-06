@@ -32,9 +32,9 @@ const listaProducto = (producto)=>{
         </section>
     
     </section>
-     `
-}
+    `
 
+}
 
 const agregadoraDeEvenetosDeBoton = () =>{
     const BotonPrincipal = document.getElementsByClassName("Botoncarrito") 
@@ -43,6 +43,13 @@ const agregadoraDeEvenetosDeBoton = () =>{
         boton.addEventListener("click", (e) =>{
             const ProductoElegido = e.target.parentElement.children[0].innerText;
             const productosPrecio = Number(e.target.parentElement.children[1].innerText.slice(1));
+
+            //Libreria - Seleccionar producto.
+            Swal.fire({
+                icon: "success",
+                title: "Producto seleccionado.",
+                text: "Podras visualizar en el Carrito.",
+            })
 
             agregador({
                 producto: ProductoElegido,
@@ -54,10 +61,9 @@ const agregadoraDeEvenetosDeBoton = () =>{
 }
 
 
-
+//FILTER
 const CategoriaProducto = document.getElementsByClassName("category")
 const ArrayProducto = Array.from(CategoriaProducto)
-
 
 ArrayProducto.forEach(category=>{
     category.addEventListener("click", (e)=>{
@@ -89,11 +95,8 @@ botonCarrito.addEventListener("click", ()=>{
 })
 
 
-///CARRITO DE COMPRA
-//Boton de Arriba 
+///CARRITO DE COMPRA 
 const Carrito = JSON.parse(localStorage.getItem("carrito")) || []
-
-
 const ConteinerProducto = document.getElementById("productos")
 const ConteinerCarrito = document.getElementById("btnCarrito") //ID de boton HTML
 
@@ -138,9 +141,6 @@ class CarritoCompra {
 
 const nuevoCarritoDeCompra = new CarritoCompra()
 
-
-
-
 //ACTUALIZADOR DE CARRITO
 const ActualizadorDeCarrito = () =>{
 
@@ -168,7 +168,7 @@ const ActualizadorDeCarrito = () =>{
         <button id="eliminar">Cancelar.</button>
     </div>`
 
-        //Libreria - Terminar la compra.
+    //Libreria - TERMINAR LA COMPRA.
     const compraRealizada = document.getElementById("borrar")
     compraRealizada.addEventListener("click", ()=>{
         nuevoCarritoDeCompra.limpiarCarrito();
@@ -181,7 +181,7 @@ const ActualizadorDeCarrito = () =>{
         });
     })
 
-    //Libreria - Cancelar.
+    //Libreria - CANCELAR.
     const eliminar = document.getElementById("eliminar")
     eliminar.addEventListener("click", ()=>{
         nuevoCarritoDeCompra.limpiarCarrito();
@@ -194,8 +194,7 @@ const ActualizadorDeCarrito = () =>{
         });
     })
 
-
-    //Boton Eliminar
+    //Boton ELIMINAR
     const BotonEliminar = document.getElementsByClassName("BotonEliminar")
     const BotonEliminarArray = Array.from(BotonEliminar)
 
@@ -205,8 +204,6 @@ const ActualizadorDeCarrito = () =>{
     })
 
 }
-
-
 
 const agregadorDeEliminar = (e) =>{
     const ProductoElegido = e.target.parentElement.children[0].innerText
@@ -226,7 +223,6 @@ const agregadorDeEliminar = (e) =>{
 
     }
     ActualizadorDeCarrito(ArrayDeProductos)
-
 
 }
 
@@ -260,6 +256,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
             agregadoraDeEvenetosDeBoton()
             ActualizadorDeCarrito()
         })
-
 })
 

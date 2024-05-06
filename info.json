@@ -54,14 +54,14 @@
         "imagen": "./img/jean-balloon-tiro-medio.jpg",
         "nombre": "Jean Balloon.",
         "categoria": "jean",
-        "precio": 14.010
+        "precio": 14.915
       },
       {
         "id": 9,
         "imagen": "./img/jean-trf-cargo-wide-leg.jpg",
         "nombre": "Jean TRF Cargo Wide Leg.",
         "categoria": "jean",
-        "precio": 16.150
+        "precio": 16.155
       },
       {
         "id": 10,
